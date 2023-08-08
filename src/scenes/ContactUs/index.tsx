@@ -23,6 +23,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
     if (!isValid) {
       e.preventDefault();
     }
+
   };
 
   return (
@@ -68,7 +69,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <form
               target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+              action="https://formsubmit.co/6a00ce668b30401d0263f580c0ed3383"
               method="POST"
             >
               <input
