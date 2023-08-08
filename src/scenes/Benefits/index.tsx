@@ -1,4 +1,4 @@
-import ActionButton from "@/hooks/ActionButton";
+import ActionButton from "@/Shared/ActionButton";
 import HText from "@/Shared/HText";
 import { BenefitType, SelectedPage } from "@/Shared/types";
 import {

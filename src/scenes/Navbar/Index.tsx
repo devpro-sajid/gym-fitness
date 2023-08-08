@@ -4,7 +4,7 @@ import logo from "@/assets/Logo.png"
 import Link from "./Link";
 import {SelectedPage} from "@/Shared/types.ts"
 import useMediaQuery from "@/hooks/useMediaQuery";
-import ActionButton from "@/hooks/ActionButton";
+import ActionButton from "@/Shared/ActionButton";
 type Props = {
   selectedPage: SelectedPage;
   setSelectedPage: (value:SelectedPage)=>void;
